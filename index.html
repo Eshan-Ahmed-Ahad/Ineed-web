@@ -1,0 +1,928 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ineed Staff</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <!--Slider files-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <!--Form Jquery File-->
+    <script src="js/style.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img class="logo-size" src="img/logo2.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Employers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Upload CV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Jobseekers</a>
+                            </li>
+                            <li class="nav-item right">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item yellow">
+                                <a class="nav-link nav-yellow" href="#">Login</a>
+                            </li>
+                            <li class="nav-item yellow right1">
+                                <a class="nav-link nav-yellow" href="#">Register</a>
+                            </li>
+                            <li class="nav-item yellow ">
+                                <a class="nav-link button" href="#">Hire Now</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                
+            </div>
+        </div>
+        <div class="header-below">
+            <div class="center">
+                <span class="pay-heading">The No.1 Pay as you Go Hiring Solution</span>
+                <p class="pay-subheading">Hire vetted staff & remove the agency middlemen</p>
+            </div>
+        </div>
+        <div class="header-below-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <span class="yellow-button" id="jobposting">Job Posting</span>
+                        <span class="gray-button" id="jobseeking">Job Seeking</span>
+                    </div>
+                    <div class="col-12">
+                        <div class="jobposting">
+                            <div class="header-below-section-color">
+                                <div class="row">
+                                    <div class="col-lg-4 form1">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class='fa fa-map-marker gray form-height' style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="form-height1">LOCATION</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-10">
+                                                <input type="text" class="noborder" placeholder="Where is the job?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 form2">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-gear form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="form-height1">ASSINGMENT</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-10">
+                                                <input type="text" class="noborder field" placeholder="gardener">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 form3">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-wrench form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="form-height1">SKILLSET</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-10">
+                                                <select class="noborder width" name="SKILLSET" form="carform">
+                                                    <option value="volvo">Agriculture</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 form4">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-users form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="form-height1">STAFF QTY</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-10">
+                                                <input type="number" class="noborder field number-wdith"
+                                                    placeholder="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 form5">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-calendar form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="form-height1">START DATE</p>
+                                            </div>
+                                            <!-- <div class="col-1"></div> -->
+                                            <div class="col-8">
+                                                <input type="date" class="noborder number-wdith"
+                                                    placeholder="23/04/2019">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 form6">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class='fas fa-clock form-height' style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="form-height1">START TIME</p>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-9">
+                                                <input type="time" class="noborder" placeholder="15:00">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 form7">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-calendar form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="form-height1">END DATE</p>
+                                            </div>
+                                            <!-- <div class="col-1"></div> -->
+                                            <div class="col-8">
+                                                <input type="date" class="noborder number-wdith"
+                                                    placeholder="23/04/2019">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 form8">
+                                        <div class="">
+                                            <div class="row">
+                                                <div class="col-1">
+                                                    <a class='fas fa-clock form-height' style="color:#8492a6"></a>
+                                                </div>
+                                                <div class="col-9">
+                                                    <p class="form-height1">END TIME</p>
+                                                </div>
+                                                <div class="col-2"></div>
+                                                <div class="col-9">
+                                                    <input type="time" class="noborder" placeholder="15:00">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 form9">
+                                        <input type="text" class="noborder requirements"
+                                            placeholder="Tell us more about your requirements">
+                                    </div>
+                                    <div class="header-below-arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jobseeking">
+                            <div class="header-below-section-color">
+                                <div class="row">
+                                    <div class="col-lg-4 form1">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class='fa fa-map-marker gray form-height' style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="form-height1">LOCATION</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-10">
+                                                <input type="text" class="noborder" placeholder="Where is the job?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 form2">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-gear form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="form-height1">ASSINGMENT</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-10">
+                                                <input type="text" class="noborder" placeholder="gardener">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 form4">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-calendar form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="form-height1">Available DATE</p>
+                                            </div>
+                                            <!-- <div class="col-1"></div> -->
+                                            <div class="col-8">
+                                                <input type="date" class="noborder number-wdith"
+                                                    placeholder="23/04/2019">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 form5">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-user form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="form-height1">Name</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <input type="text" class="noborder number-wdith"
+                                                    placeholder="Enter Name here">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 form6">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <a class="fa fa-envelope form-height" style="color:#8492a6"></a>
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="form-height1">Email</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <input type="text" class="noborder number-wdith"
+                                                    placeholder="Enter Email here">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 form9">
+                                        <input type="text" class="noborder requirements"
+                                            placeholder="Tell us more about your requirements">
+                                    </div>
+                                    <div class="header-below-arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <span class="phone">
+                            <span class="fa fa-phone hc-margin"></span>
+                            <span class="hc-margin gray">(+44)161 738 1230</span>
+                        </span>
+                        <span class="email">
+                            <span class="fa fa-envelope hc-margin"></span>
+                            <span class="hc-margin gray">hire@ineedstaff.com</span>
+                        </span>
+                    </div>
+                    <div class="col-md-5"></div>
+                    <div class="col-md-2">
+                        <span class="dollar">
+                            <a class="fa fa-globe"></a>
+                            <select name="country" class="gray nobackground noborder hc-margin">
+                                <option value="UK">UK</option>
+                            </select>
+                            <a class="fa fa-gbp"></a>
+                            <select name="country" class="gray nobackground noborder">
+                                <option value="GBP">GBP</option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="client">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./img/Service-Man.PNG" class="img-size">
+                </div>
+                <div class="col-md-6">
+                    <p class="mission">OUR MISSION</p>
+                    <p class="cient">Cient & Staff Satisfaction</p>
+                    <p class="cient-text">INeedStaff.com go above & beyond when it comes to client & staff satisfaction.
+                        Not only are all staff vetted using the CVClear system but they also come with previous
+                        employment reviews & a desire to deliver a truly professional shift.
+                        <br><br>
+                        Unlike agency workers our staff all receive regular financial bonus incentives & access to
+                        our employee reward scheme which gives them discounts, free entry & great perks every day of
+                        week.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hire-staff">
+        <div class="works-top">
+            <p class="center work">HOW IT WORKS</p>
+            <p class="center hire">Hire Staff Simple</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="staff-details">
+                            <div class="center"><img src="./img/assingment.PNG"></div>
+                            <h4 class="center staff-text">Assignment</h4>
+                            <p class="center staff-text">Tell us what you need, who you need & when you need them, Be
+                                sure
+                                to inculde
+                                everything that matters to you as this helps us to get the match right first time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="staff-details1">
+                            <div class="center"><img src="./img/database.PNG"></div>
+                            <h4 class="center staff-text">Database Search</h4>
+                            <p class="center staff-text">Our requisition team will locate the relevant & available
+                                professional(s) from
+                                our staff
+                                database. We will send you their profiles & you decide if you want to hire them.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="staff-details2">
+                            <div class="center"><img src="./img/delivered.PNG"></div>
+                            <h4 class="center staff-text">Delivered</h4>
+                            <p class="center staff-text staff-text-bottom">Once confirmed your selected staff will
+                                arrive at
+                                the time agreed to start the
+                                assingment
+                                or shift. You pay their wages direct to them & a small daily or hourly fee to us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="professional-staff">
+        <p class="center work">WE HAVE PROFESSIONAL STAFF</p>
+        <p class="center hire">Available Today</p>
+        <!--Slider Code-->
+        <div class="top-content">
+            <div class="container-fluid">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                            <div class="staff img-fluid mx-auto d-block">
+                                <img src="./img/cummins.PNG" class="avaialable-staff-img">
+                                <div class="sheff">
+                                    <p>Commins Chef</p>
+                                    <span class="fa fa-map-marker" style="font-size: 12px"></span><span
+                                        class="staff-paragraph">Manchester &
+                                        London</span>
+                                    <div class="staff-paragraph2">
+                                        <span class="fa fa-check-circle"></span><span class="staff-subparagraph">CVCLEAR
+                                            Verified</span>
+                                    </div>
+                                    <div class="staff-paragraph3">Simply give us your requirments & duration
+                                        required.
+                                        You pay us a daily fee & the staff's wages direct
+                                        to them </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="staff-paragraph4">
+                                                    <div><span class="fa fa-birthday-cake"></span><span
+                                                            class="staff-paragraph41">3+
+                                                            years
+                                                            experience</span></div>
+                                                    <div><span class="fa fa-hand-holding-usd"></span><span
+                                                            class="staff-paragraph41">Daily,
+                                                            weekly,
+                                                            monthly</span></div>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./img/21.PNG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="staff img-fluid mx-auto d-block">
+                                <img src="./img/bar-staff.PNG" class="avaialable-staff-img">
+                                <div class="sheff">
+                                    <p>Bar Staff</p>
+                                    <span class="fa fa-map-marker" style="font-size: 12px"></span><span
+                                        class="staff-paragraph">Manchester &
+                                        London</span>
+                                    <div class="staff-paragraph2">
+                                        <span class="fa fa-check-circle"></span><span class="staff-subparagraph">CVCLEAR
+                                            Verified</span>
+                                    </div>
+                                    <div class="staff-paragraph3">Simply give us your requirments & duration
+                                        required.
+                                        You pay us a daily fee & the staff's wages direct
+                                        to them </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="staff-paragraph4">
+                                                    <div><span class="fa fa-birthday-cake"></span><span
+                                                            class="staff-paragraph41">3+
+                                                            years
+                                                            experience</span></div>
+                                                    <div><span class="fa fa-hand-holding-usd"></span><span
+                                                            class="staff-paragraph41">Daily,
+                                                            weekly,
+                                                            monthly</span></div>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./img/16.PNG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="staff img-fluid mx-auto d-block">
+                                <img src="./img/receptionist.PNG" class="avaialable-staff-img">
+                                <div class="sheff">
+                                    <p>receptionist</p>
+                                    <span class="fa fa-map-marker" style="font-size: 12px"></span><span
+                                        class="staff-paragraph"></span>
+                                    <div class="staff-paragraph2">
+                                        <span class="fa fa-check-circle"></span><span class="staff-subparagraph">CVCLEAR
+                                            Verified</span>
+                                    </div>
+                                    <div class="staff-paragraph3">Simply give us your requirments & duration
+                                        required.
+                                        You pay us a daily fee & the staff's wages direct
+                                        to them </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="staff-paragraph4">
+                                                    <div><span class="fa fa-birthday-cake"></span><span
+                                                            class="staff-paragraph41">3+
+                                                            years
+                                                            experience</span></div>
+                                                    <div><span class="fa fa-hand-holding-usd"></span><span
+                                                            class="staff-paragraph41">Daily,
+                                                            weekly,
+                                                            monthly</span></div>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./img/21.PNG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="staff img-fluid mx-auto d-block">
+                                <img src="./img/cummins.PNG" class="avaialable-staff-img">
+                                <div class="sheff">
+                                    <p>Commins Chef</p>
+                                    <span class="fa fa-map-marker" style="font-size: 12px"></span><span
+                                        class="staff-paragraph">Manchester &
+                                        London</span>
+                                    <div class="staff-paragraph2">
+                                        <span class="fa fa-check-circle"></span><span class="staff-subparagraph">CVCLEAR
+                                            Verified</span>
+                                    </div>
+                                    <div class="staff-paragraph3">Simply give us your requirments & duration
+                                        required.
+                                        You pay us a daily fee & the staff's wages direct
+                                        to them </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="staff-paragraph4">
+                                                    <div><span class="fa fa-birthday-cake"></span><span
+                                                            class="staff-paragraph41">3+
+                                                            years
+                                                            experience</span></div>
+                                                    <div><span class="fa fa-hand-holding-usd"></span><span
+                                                            class="staff-paragraph41">Daily,
+                                                            weekly,
+                                                            monthly</span></div>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./img/21.PNG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="staff img-fluid mx-auto d-block">
+                                <img src="./img/bar-staff.PNG" class="avaialable-staff-img">
+                                <div class="sheff">
+                                    <p>Bar Staff</p>
+                                    <span class="fa fa-map-marker" style="font-size: 12px"></span><span
+                                        class="staff-paragraph">Manchester &
+                                        London</span>
+                                    <div class="staff-paragraph2">
+                                        <span class="fa fa-check-circle"></span><span class="staff-subparagraph">CVCLEAR
+                                            Verified</span>
+                                    </div>
+                                    <div class="staff-paragraph3">Simply give us your requirments & duration
+                                        required.
+                                        You pay us a daily fee & the staff's wages direct
+                                        to them </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="staff-paragraph4">
+                                                    <div><span class="fa fa-birthday-cake"></span><span
+                                                            class="staff-paragraph41">3+
+                                                            years
+                                                            experience</span></div>
+                                                    <div><span class="fa fa-hand-holding-usd"></span><span
+                                                            class="staff-paragraph41">Daily,
+                                                            weekly,
+                                                            monthly</span></div>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./img/16.PNG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="staff img-fluid mx-auto d-block">
+                                <img src="./img/bar-staff.PNG" class="avaialable-staff-img">
+                                <div class="sheff">
+                                    <p>Bar Staff</p>
+                                    <span class="fa fa-map-marker" style="font-size: 12px"></span><span
+                                        class="staff-paragraph"></span>
+                                    <div class="staff-paragraph2">
+                                        <span class="fa fa-check-circle"></span><span class="staff-subparagraph">CVCLEAR
+                                            Verified</span>
+                                    </div>
+                                    <div class="staff-paragraph3">Simply give us your requirments & duration
+                                        required.
+                                        You pay us a daily fee & the staff's wages direct
+                                        to them </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="staff-paragraph4">
+                                                    <div><span class="fa fa-birthday-cake"></span><span
+                                                            class="staff-paragraph41">3+
+                                                            years
+                                                            experience</span></div>
+                                                    <div><span class="fa fa-hand-holding-usd"></span><span
+                                                            class="staff-paragraph41">Daily,
+                                                            weekly,
+                                                            monthly</span></div>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./img/16.PNG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="available-footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <button class="available-button">View All Staff</button>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <a class="carousel-control-prev" href="#carousel-example" role="button"
+                                        data-slide="prev">
+                                        <span class="fa fa-arrow-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel-example" role="button"
+                                        data-slide="next">
+                                        <span class="fa fa-arrow-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <p class="center work">WHATEVER YOU NEED</p>
+        <h2 class="center hire">Browse Categories</h2>
+        <div class="browsecontainer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-4">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./img/cutlery.PNG">
+                                    <div>Chefs</div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 offset-lg-0 col-md-4 offset-md-3">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fa fa-glass" style="color: #ffa500"></div>
+                                    <div>Bar Staff</div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fa fa-user-tie" style="color: #ffa500"></div>
+                                    <div>Hospitality</div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 offset-lg-0 col-md-4 offset-md-3">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./img/clarical.PNG">
+                                    <div>Clerical</div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./img/retail.PNG">
+                                    <div>Retail</div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 offset-lg-0 col-md-4 offset-md-3">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fa fa-car" style="color: #ffa500"></div>
+                                    <div>Drivers</div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fa fa-glass" style="color: #ffa500"></div>
+                                    <div>Warehouse</div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 offset-lg-0 col-md-4 offset-md-3">
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-8">
+                                    <img src="./img/skilled staff.PNG">
+                                    <div>Skilled Staff</div>
+                                </div>
+                                <div class="col-4">
+                                    <a class="fa fa-arrow-right"
+                                        style="color: #a3a3a3;float: right;margin-top: 10px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jobs-alert">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div>
+                        <p class="jobs-alert-text">JOB ALERT SIGNUP</p>
+                    </div>
+                    <div>
+                        <h5 class="jobs-alert-heading">Receive Jobs Alerts as They Go Live</h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="jobs-alert-email" placeholder="Enter your Email">
+                    <button class="jobs-alert-button">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12"><img class="footer-logo" src="./img/logo2.png"></div>
+                <div class="col-md-6">
+                    <div class="footer-information">
+                        <div class="row">
+                            <div><a class="fa fa-map-marker"></a><span>33 Cavendish Square London W1G 0TU</span></div>
+                            <div><a class="fa fa-phone"></a><span>+44 207 164 6306</span></div>
+                            <div><a class="fa fa-map-marker"></a><span>The Landing, MediaCity Salford M50 4EG</span>
+                            </div>
+                            <div><a class="fa fa-phone"></a><span>+44 161 738 1230</span></div>
+                            <div><a class="fa fa-envelope"></a><span>hire@ineedstaff.com</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <p class="company">Company</p>
+                    <div class="footer-company">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>About us</p>
+                            </div>
+                            <div class="col-12">
+                                <p>How It Works</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Contact Us</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Privacy policy</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Site Map</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Terms & condition</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <p class="astaff">Available Staff</p>
+                    <div class="footer-staff">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Bar Staff</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="footer-text">Waiting Staff</p>
+                            </div>
+                            <div class="col-12">
+                                <p class="footer-text">Security Staff</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Kitchen Staff</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Construction Workers</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Admin Staff</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Warehouse Staff</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="social-media">
+                        <img src="./img/facebook.PNG">
+                        <img src="./img/twitter.PNG">
+                        <img src="./img/instagram.PNG">
+                        <img src="./img/linkedin.PNG">
+                    </div>
+                </div>
+                <div class="col12">
+                    <div class="footer-bottom">
+                        © INeedStaff.com 2018 | Designed with Love By salestorm
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--JavaScript File-->
+    <script src="./bootstrap-carousel-multiple-items/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./bootstrap-carousel-multiple-items/assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="./bootstrap-carousel-multiple-items/assets/js/jquery.backstretch.min.js"></script>
+    <script src="./bootstrap-carousel-multiple-items/assets/js/wow.min.js"></script>
+    <script src="./bootstrap-carousel-multiple-items/assets/js/scripts.js"></script>
+</body>
+
+</html>

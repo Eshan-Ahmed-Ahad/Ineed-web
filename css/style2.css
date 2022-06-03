@@ -1,0 +1,5 @@
+
+.carousel-control-next, .carousel-control-prev { 
+	position: relative;border: 0;float: left;background-color: #f9fafc;color: #777777;
+	width: 60px; height: 60px;margin: 5px;
+}

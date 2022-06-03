@@ -1,0 +1,16 @@
+$(document).ready(function(){
+  $(".jobposting").css('display','block');
+  $(".jobseeking").css('display','none');
+  $("#jobposting").click(function(){
+    $(this).css({'background-color':'#ffa500','color':'white'});
+    $("#jobseeking").css({'background-color':'#e6e6e6',"color":"#c0c0c0"});
+    $(".jobposting").css('display','block');
+    $(".jobseeking").css('display','none');
+  });
+  $("#jobseeking").click(function(){
+    $(this).css({'background-color':'#ffa500','color':'white'});
+    $("#jobposting").css({'background-color':'#e6e6e6','color':'#c0c0c0'});
+    $(".jobposting").css('display','none');
+    $(".jobseeking").css('display','block');
+  });
+});
